@@ -360,6 +360,8 @@ The platform demonstrates how Artificial Intelligence can simplify and accelerat
 # 👩‍💻 Developers
 
 **Daniya Abdul Razzaq**
+
 **Rayeha Muneeb**
+
 **Afaq Khan**
  
