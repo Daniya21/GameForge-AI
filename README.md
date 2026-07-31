@@ -1,77 +1,371 @@
-# GameForge AI — Simplified Production Studio
+# 🎮 GameForge AI
 
-GameForge AI is a connected game pre-production workspace. Each game is stored as its own project and moves through one clear workflow:
+<div align="center">
 
-**Project → Design Studio → Production → Team Handoff → Final GDD**
+### AI-Powered Game Pre-Production Platform
 
-The redesign removes repeated dashboards, Living Bible screens, Scenario Lab screens, and premature GDD export controls. The final document is assembled automatically from the active project's saved work.
+**Turn one game idea into a complete production-ready Game Design Document.**
 
-## Main workflow
+From story creation to production planning, GameForge AI connects every stage of game design into one intelligent workflow.
 
-1. **Projects** — create, open, duplicate, switch, or delete independent game projects.
-2. **Design Studio** — complete Story, Characters, World, Quests, Dialogue, and AI Producer review.
-3. **Production** — stays empty until real design content exists, then generates team size, roles, duration, workload, risks, and phases from that project.
-4. **Team Handoff** — unlocks only after a current Production plan exists, then creates role-based tasks, ownership, notes, and approval status.
-5. **Final GDD** — automatically compile the active project and export PDF, Word-compatible DOC, Markdown, or JSON.
+---
 
-Editing a core design section or the project brief invalidates an older GDD so the final document cannot silently become outdated.
+Built for the **IBM Builders Challenge 2025**
 
-## Primary routes
+</div>
 
-- `/` — product overview
-- `/projects` — multi-project library
-- `/design-studio` — six-tool design workflow
-- `/story`, `/characters`, `/world`, `/quests`, `/dialogue`, `/mentor` — specialist tools
-- `/production-intelligence` — production planning
-- `/team-workspace` — team handoff
-- `/gdd-export` — automatic final GDD builder
-- `/playable-scene` — optional narrative prototype
-- `/system-check` — local route checks
+---
 
-Legacy Living Bible and Scenario Lab URLs redirect into the simplified workflow.
+# 🌟 Overview
 
-## Run on Windows
+GameForge AI is an AI-powered game pre-production platform designed using IBM BOB to help game developers transform a simple idea into a complete production-ready game design.
 
-Extract the ZIP into a clean folder. Open PowerShell in the folder containing `package.json`, then run:
+Unlike traditional AI tools that generate isolated assets, GameForge AI keeps every design element connected throughout the development pipeline.
 
-```powershell
-Copy-Item .env.example .env.local
-npm.cmd install
-npm.cmd run verify:experience
-npm.cmd run verify:planb:final
-npm.cmd run typecheck
-npm.cmd run build
-npm.cmd run dev
+Every generated Story, Character, World, Quest, Dialogue, and Production Plan belongs to the same project, ensuring consistency across the entire game design process.
+
+---
+
+# 🚀 Key Features
+
+## 📂 Project Management
+
+- Create unlimited game projects
+- Independent workspace for every game
+- Duplicate projects
+- Project progress tracking
+- Automatic project saving
+
+---
+
+## 🎨 Design Studio
+
+GameForge AI provides six specialized AI design tools.
+
+### 📖 Story Generator
+
+Generate
+
+- Core Premise
+- Story Outline
+- Narrative Structure
+- Themes
+- Plot Twists
+- Story Blueprint
+
+---
+
+### 👥 Character Generator
+
+Generate
+
+- Heroes
+- Villains
+- NPCs
+- Character Profiles
+- Personality
+- Abilities
+- Relationships
+- Character Artwork
+- 3D character 
+
+---
+
+### 🌍 World Generator
+
+Create complete game worlds including
+
+- Regions
+- Cities
+- Biomes
+- History
+- Culture
+- Factions
+- Environment Design
+
+---
+
+### ⚔ Quest Generator
+
+Generate
+
+- Main Quests
+- Side Quests
+- Objectives
+- Rewards
+- Progression
+- Mission Structure
+
+---
+
+### 💬 Dialogue Generator
+
+Generate cinematic dialogue with
+
+- NPC Conversations
+- Emotional Dialogue
+- Character Interactions
+- Scene Scripts
+- Branching Conversations
+
+---
+
+### 🤖 AI Producer
+
+Review your project using AI.
+
+Receive suggestions about
+
+- Scope
+- Gameplay
+- Story
+- Balance
+- Production Risks
+- Development Planning
+
+---
+
+# 🏗 Production Planning
+
+Once the design phase is complete, GameForge AI automatically generates
+
+- Development Roadmap
+- Team Structure
+- Production Timeline
+- Risk Assessment
+- Milestones
+- Estimated Development Complexity
+
+Production Planning only becomes available after meaningful project content has been created.
+
+---
+
+# 👨‍💻 Team Handoff
+
+Convert your completed design into
+
+- Team Tasks
+- Department Assignments
+- Development Notes
+- Milestones
+- Responsibilities
+
+The Team Workspace transforms creative ideas into actionable development work.
+
+---
+
+# 📄 Automatic Game Design Document (GDD)
+
+GameForge AI automatically compiles every completed design section into a professional Game Design Document.
+
+Export formats include
+
+- PDF
+- DOC
+- Markdown
+- JSON
+
+---
+
+# 🔄 Workflow
+
+```text
+Game Idea
+      │
+      ▼
+Create Project
+      │
+      ▼
+Design Studio
+ ├── Story
+ ├── Characters
+ ├── World
+ ├── Quests
+ ├── Dialogue
+ └── AI Producer
+      │
+      ▼
+Production Planning
+      │
+      ▼
+Team Handoff
+      │
+      ▼
+ GDD Export
 ```
 
-Open `http://localhost:3000`.
+---
 
-You can also double-click `START_GAMEFORGE.bat`. `VERIFY_GAMEFORGE.bat` checks the redesigned route and workflow files.
+# 🖼 Screenshots
 
-## Environment variables
+## Landing Page
+<img width="1680" height="930" alt="Screenshot 2026-08-01 at 3 03 02 AM" src="https://github.com/user-attachments/assets/c10e3986-3dbe-46d4-9040-139437a52099" />
 
-Live AI generations use the provider configuration in `.env.local`:
+
+![Landing Page](screenshots/landing-page.png)
+
+## Project Library
+
+![Projects](screenshots/projects.png)
+
+<img width="3360" height="1854" alt="image" src="https://github.com/user-attachments/assets/2c3401fb-25a1-4637-b590-019319a8732a" />
+
+
+## Design Studio
+
+![Design Studio](screenshots/design-studio.png)
+
+<img width="1436" height="1588" alt="image" src="https://github.com/user-attachments/assets/474f3778-f2cb-4255-b36f-6c6996828365" />
+ 
+
+## Dialogue Generator
+
+![Dialogue](screenshots/dialogue.png)
+
+<img width="1478" height="1728" alt="image" src="https://github.com/user-attachments/assets/b167f5c0-6aa0-4f9f-9e48-320f024b6c72" />
+
+
+## Production Planning
+
+![Production](screenshots/production.png)
+
+<img width="1024" height="1386" alt="image" src="https://github.com/user-attachments/assets/650b9915-19ef-41d9-b17b-8a0aa65a3c46" />
+
+
+## Team Handoff
+
+![Team Handoff](screenshots/team-handoff.png)
+
+<img width="1020" height="1372" alt="image" src="https://github.com/user-attachments/assets/893565e5-89e9-43be-9e56-52b07e5db206" />
+
+# 💻 Technology Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### AI
+
+- Groq API
+- Cloudflare AI
+- ElevenLabs
+- Tripo AI
+
+### Other
+
+- Local Storage
+- PDF Export
+- Responsive Design
+- Modern UI/UX
+
+---
+
+# ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Daniya21/GameForge-AI.git
+```
+
+Move into the project
+
+```bash
+cd GameForge-AI
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:3000
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env.local`
 
 ```env
 GROQ_API_KEY=
+
 GROQ_FAST_MODEL=openai/gpt-oss-20b
-GROQ_MODEL=
 
 CLOUDFLARE_ACCOUNT_ID=
+
 CLOUDFLARE_API_TOKEN=
-CLOUDFLARE_IMAGE_MODEL=@cf/black-forest-labs/flux-1-schnell
 
 ELEVENLABS_API_KEY=
+
 ELEVENLABS_VOICE_ID=
 ```
 
-Successful AI results are saved to the project. The Dialogue Generator does not insert a fake sample when the provider is unavailable; it shows the real connection error instead. Never commit or share `.env.local`.
+Never commit your `.env.local` file.
 
-## Recommended demonstration
+---
 
-1. Open **Projects** and create or select a game.
-2. Open **Design Studio** and show the six focused tools.
-3. Open **Dialogue Generator**, enter the scene and cast, and generate the actual script.
-4. Open **Production**. Confirm it is empty before content exists, then generate the plan from the current project.
-5. Open **Team Handoff** and show the roles and tasks created from that Production plan.
-6. Finish in **Final GDD** and export the automatically assembled document.
+# 🎯 Why GameForge AI?
+
+Traditional AI game generators create disconnected assets.
+
+GameForge AI keeps every design decision connected.
+
+✔ Story influences Characters
+
+✔ Characters influence Dialogue
+
+✔ World influences Quests
+
+✔ Production Planning uses completed project data
+
+✔ Team Handoff uses Production Planning
+
+✔ Final GDD combines every completed section automatically
+
+This connected workflow enables developers to maintain consistency throughout the entire game pre-production process.
+
+---
+
+# 🚀 Future Roadmap
+
+- Agentic AI Workflow
+- Real-time Collaboration
+- Version History
+- Unity Integration
+- Unreal Engine Integration
+- Godot Export
+- AI Voice Acting
+- Playable Prototype Generation
+- Cloud Project Sync
+
+---
+
+# 🏆 IBM Builders Challenge
+
+GameForge AI was developed for the **IBM Builders Challenge**.
+
+The platform demonstrates how Artificial Intelligence can simplify and accelerate game pre-production by combining creative design, production planning, and documentation into one connected workflow.
+
+---
+
+# 👩‍💻 Developers
+
+**Daniya Abdul Razzaq**
+**Rayeha Muneeb**
+**Afaq Khan**
+ 
