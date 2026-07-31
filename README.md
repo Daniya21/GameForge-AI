@@ -201,40 +201,34 @@ Team Handoff
 ## Landing Page
 <img width="1680" height="930" alt="Screenshot 2026-08-01 at 3 03 02 AM" src="https://github.com/user-attachments/assets/c10e3986-3dbe-46d4-9040-139437a52099" />
 
-
-![Landing Page](screenshots/landing-page.png)
+ 
 
 ## Project Library
 
-![Projects](screenshots/projects.png)
 
 <img width="3360" height="1854" alt="image" src="https://github.com/user-attachments/assets/2c3401fb-25a1-4637-b590-019319a8732a" />
 
 
 ## Design Studio
-
-![Design Studio](screenshots/design-studio.png)
+ 
 
 <img width="1436" height="1588" alt="image" src="https://github.com/user-attachments/assets/474f3778-f2cb-4255-b36f-6c6996828365" />
  
 
 ## Dialogue Generator
 
-![Dialogue](screenshots/dialogue.png)
 
 <img width="1478" height="1728" alt="image" src="https://github.com/user-attachments/assets/b167f5c0-6aa0-4f9f-9e48-320f024b6c72" />
 
 
 ## Production Planning
-
-![Production](screenshots/production.png)
+ 
 
 <img width="1024" height="1386" alt="image" src="https://github.com/user-attachments/assets/650b9915-19ef-41d9-b17b-8a0aa65a3c46" />
 
 
 ## Team Handoff
-
-![Team Handoff](screenshots/team-handoff.png)
+ 
 
 <img width="1020" height="1372" alt="image" src="https://github.com/user-attachments/assets/893565e5-89e9-43be-9e56-52b07e5db206" />
 
