@@ -1,0 +1,22 @@
+GAMEFORGE AI — SIMPLIFIED PRODUCTION REDESIGN
+
+1. Extract the complete ZIP into a clean folder.
+2. Put your private .env.local beside package.json, or copy .env.example.
+3. Open PowerShell in that folder.
+4. Run:
+
+   npm.cmd install
+   npm.cmd run verify:experience
+   npm.cmd run verify:planb:final
+   npm.cmd run typecheck
+   npm.cmd run build
+   npm.cmd run dev
+
+5. Open http://localhost:3000
+
+FINAL DEMO FLOW:
+Projects -> Design Studio -> Dialogue -> Production -> Team Handoff -> Final GDD.
+
+The Final GDD automatically uses the active project's saved Story, Characters,
+World, Quests, Dialogue, and AI Producer work. Live AI generations require the
+provider keys in .env.local. Never share or commit .env.local.

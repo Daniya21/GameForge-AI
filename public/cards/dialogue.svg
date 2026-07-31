@@ -1,0 +1,49 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="130" y1="80" x2="1060" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#170B22"/>
+      <stop offset="0.52" stop-color="#080A16"/>
+      <stop offset="1" stop-color="#130611"/>
+    </linearGradient>
+    <linearGradient id="rose" x1="235" y1="220" x2="930" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB7185"/>
+      <stop offset="0.48" stop-color="#D946EF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="22" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.92 0 1 0 0 0.18 0 0 1 0 0.48 0 0 0 0.7 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" rx="68" fill="url(#bg)"/>
+  <circle cx="270" cy="236" r="180" fill="#F43F5E" fill-opacity="0.14" filter="url(#soft)"/>
+  <circle cx="915" cy="620" r="225" fill="#8B5CF6" fill-opacity="0.15" filter="url(#soft)"/>
+  <g opacity="0.16">
+    <path d="M0 150H1200M0 300H1200M0 450H1200M0 600H1200M0 750H1200" stroke="#E9D5FF"/>
+    <path d="M150 0V900M300 0V900M450 0V900M600 0V900M750 0V900M900 0V900M1050 0V900" stroke="#E9D5FF"/>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M174 267C174 198.517 229.517 143 298 143H594C662.483 143 718 198.517 718 267V375C718 443.483 662.483 499 594 499H405L281 596V499C221.713 491.074 174 440.306 174 379V267Z" fill="#0A0B15" stroke="url(#rose)" stroke-width="8"/>
+    <path d="M541 457C541 397.905 588.905 350 648 350H905C964.095 350 1012 397.905 1012 457V570C1012 629.095 964.095 677 905 677H810L916 761L708 677H648C588.905 677 541 629.095 541 570V457Z" fill="#0A0B15" stroke="url(#rose)" stroke-width="8"/>
+  </g>
+  <g fill="url(#rose)">
+    <rect x="249" y="233" width="384" height="25" rx="12.5"/>
+    <rect x="249" y="291" width="315" height="19" rx="9.5" fill-opacity="0.72"/>
+    <rect x="249" y="341" width="356" height="19" rx="9.5" fill-opacity="0.55"/>
+    <rect x="249" y="391" width="236" height="19" rx="9.5" fill-opacity="0.4"/>
+    <rect x="615" y="447" width="318" height="25" rx="12.5"/>
+    <rect x="615" y="505" width="269" height="19" rx="9.5" fill-opacity="0.72"/>
+    <rect x="615" y="555" width="325" height="19" rx="9.5" fill-opacity="0.55"/>
+    <rect x="615" y="605" width="205" height="19" rx="9.5" fill-opacity="0.4"/>
+  </g>
+  <g opacity="0.7">
+    <circle cx="112" cy="742" r="6" fill="#FB7185"/>
+    <circle cx="1090" cy="172" r="5" fill="#A78BFA"/>
+    <circle cx="1020" cy="772" r="8" fill="#D946EF"/>
+    <circle cx="163" cy="114" r="4" fill="#F9A8D4"/>
+  </g>
+</svg>

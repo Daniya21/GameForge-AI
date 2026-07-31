@@ -1,0 +1,32 @@
+{
+  "name": "gameforge-ai",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "verify:planb": "node --no-warnings --experimental-strip-types scripts/verify-plan-b-final.mjs",
+    "verify:planb:final": "node --no-warnings --experimental-strip-types scripts/verify-plan-b-final.mjs",
+    "verify:experience": "node scripts/verify-experience.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.28.0",
+    "next": "16.2.10",
+    "playcanvas": "2.21.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

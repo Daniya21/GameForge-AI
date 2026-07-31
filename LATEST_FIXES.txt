@@ -1,0 +1,22 @@
+GAMEFORGE — REAL PRODUCTION DATA + DIALOGUE CLEANUP
+
+Implemented in this package:
+
+1. Production no longer displays team size, duration, assets, QA, risks, or phases for an empty project.
+2. Production requires real Story, Character, World, Quest, or Dialogue content before planning is available.
+3. A production plan is created only after pressing Generate production plan.
+4. Team Handoff remains empty until a current Production plan exists.
+5. Team roles and tasks are created from the generated production plan and actual connected project sections.
+6. Old placeholder Team Handoff workspace data is ignored through versioned storage.
+7. Changing core project content invalidates the old production plan and requires regeneration.
+8. The large promotional Dialogue demonstration, relationship meter, emotion panel, voice preview, statistics, and sample scene were removed.
+9. Dialogue is now one focused input-and-result generator.
+10. Fake local dialogue fallback was removed. Failed AI requests show the real error and do not save fabricated dialogue.
+11. Dialogue dropdown values now exactly match the API values.
+12. Successful dialogue results are saved to the active project.
+
+Validation:
+- 108 TypeScript/TSX files parsed with 0 syntax errors.
+- Simplified workflow verification passed.
+- Interactive experience verification passed.
+- Full npm install/build could not run in the packaging environment because its internal npm mirror returned a missing-package 404. The project retains its original package.json and package-lock.json for installation on the user's machine.

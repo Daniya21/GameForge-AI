@@ -1,0 +1,28 @@
+GAMEFORGE SIMPLIFIED PRODUCTION REDESIGN — COMPLETED
+
+Implemented:
+- Persistent multi-project library with create, switch, duplicate, and delete
+- Existing single-project data migration
+- Six-tool Design Studio
+- Focused Dialogue Generator with no promotional demo or fake fallback
+- Simplified navigation and homepage workflow
+- Living Bible and Scenario Lab removed from the active experience
+- Production remains empty until real project content exists and a plan is generated
+- Team Handoff remains empty until a current Production plan exists
+- Automatic Final GDD compilation and multiple export formats
+- Stale GDD invalidation when core project content changes
+- Legacy route redirects
+- Updated documentation, Windows launchers, and verification scripts
+
+Validation completed:
+- verify:experience passed
+- verify:planb:final passed
+- 108 TypeScript/TSX files parsed with 0 syntax diagnostics
+- Targeted TypeScript validation passed
+
+To run:
+1. Extract this folder.
+2. Open PowerShell here.
+3. Run npm.cmd install
+4. Run npm.cmd run dev
+5. Open http://localhost:3000
