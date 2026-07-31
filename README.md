@@ -359,9 +359,9 @@ The platform demonstrates how Artificial Intelligence can simplify and accelerat
 
 # 👩‍💻 Developers
 
-**Daniya Abdul Razzaq**
+**Afaq Khan**
 
 **Rayeha Muneeb**
 
-**Afaq Khan**
- 
+**Daniya Abdul Razzaq**
+
